@@ -1,0 +1,19 @@
+$button-hover-type: 'lighten';
+$button-hover-amount: 10%;
+
+$color-entrar: #0be37e;
+$color-blue: #39aed9;
+$color-yellow: #f5b946;
+$color-red: #d94352;
+$color-orange: #f4645f;
+
+$theme-colors: () !default;
+$theme-colors: map_merge(
+                (
+                    'green': $color-entrar,
+                    'blue': $color-blue,
+                    'yellow': $color-yellow,
+                    'red': $color-red,
+                    'orange': $color-orange,
+                ), $theme-colors
+                );

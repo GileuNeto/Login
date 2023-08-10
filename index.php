@@ -3,37 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_cdn/css/style.css">
     <title>Login</title>
 </head>
 <body>
-    <div class="container-image">
-        <img src="_cdn/images/image.svg" alt="">
-    </div>
-    <div class="container-login">
-        <form class="form">
-            <div class="form-title">
+    <main>
+        <div class="container_image">
+            <img src="_cdn/images/image.svg" alt="">
+        </div>
+        <div class="container_login">
+            <div class="form_content">
+            <div class="form_title">
                 <p>Bem-Vindo de Volta</p>
                 <h1>Faça login na sua conta</h1>
             </div>
-            <div class="form-login">
-                <label for="email">E-mail</label>
-                <input type="email" id="email" placeholder="exemple@gmail.com">
-                <label for="senha">Senha</label>
+            <form class="form">
+            <div class="form_login">
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email" placeholder="exemple@gmail.com"><br>
+                <label for="senha">Senha</label><br>
                 <input type="passward " id="senha" placeholder="********">
-            </div>
-            <div class="form-radio">
-                <input type="radio" id="lembrar-login">
-                <label for="lembrar-login">Lembrar de mim</label>
+            </div>  
+            <div class="form_radio">
+                <div class="radio_content">
+                    <input type="radio" id="lembrar_login">
+                    <label for="lembrar_login">Lembre de mim</label>  
+                </div>
                 <a href="#">Esqueceu sua senha?</a>
             </div>
-            <div class="form-button">
-                <button class="btn btn-login">Entrar</button>
-                <button class="btn btn-login-google"><img src="_cdn/images/google.svg" alt="image-google">ou faça login com o Google</button>
+            <button class="btn btn-green">Entrar</button>
+            <button class="btn btn-google"><img src="_cdn/images/google.svg" alt="image-google">ou faça login com o Google</button>
+            </form>
             </div>
             <div class="cadastro">
                 <p>Não tem uma conta?<a href="#">Cadastre-se</a></p>
             </div>
-        </form>
-    </div>    
+            
+        </div> 
+    </main>       
 </body>
 </html>
