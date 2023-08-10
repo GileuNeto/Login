@@ -31,7 +31,7 @@
                 </div>
                 <a href="#">Esqueceu sua senha?</a>
             </div>
-            <button class="btn btn-green">Entrar</button>
+            <button class="btn btn-entrar">Entrar</button>
             <button class="btn btn-google"><img src="_cdn/images/google.svg" alt="image-google">ou faça login com o Google</button>
             </form>
             </div>
