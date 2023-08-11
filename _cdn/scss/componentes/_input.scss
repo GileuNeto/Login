@@ -1,0 +1,17 @@
+input {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8 !important;
+    padding-left: 20px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input:focus,
+input:active {
+    outline-color: var(--green-light);;
+}
+
+input::placeholder {
+    color: var(--gray);
+}

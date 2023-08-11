@@ -1,0 +1,19 @@
+
+.form_content{
+    width: 347px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+        label {
+            padding: 11px 0px;
+    
+        } #email, #senha{
+            width: 350px;
+        }   
+}
