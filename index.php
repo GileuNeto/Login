@@ -34,7 +34,7 @@
             <button class="btn btn-entrar">Entrar</button><br>
             <button class="btn btn-google"><img src="_cdn/images/google.svg" alt="image-google">ou faça login com o Google</button>
             </form>
-            </div>
+        </div>
             <div class="cadastro">
                 <p>Não tem uma conta?<a href="#">Cadastre-se</a></p>
             </div>

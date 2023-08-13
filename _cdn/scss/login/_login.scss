@@ -6,17 +6,14 @@ main {
     height: 100vh;
     display: flex;
     gap: 0px;
-}
 
-@media (max-width: 1024px) {
-    .container_image{display: none;}
-    .container_login{display: block;}
-  }
+}
 
 a {
     text-decoration: none;
     color: $color-a;
 }
+
 
 .container_image{
     background-color: #f7fafc;
@@ -31,6 +28,12 @@ a {
     }
 }
 
+@media (max-width:772px){
+    .container_image{
+        display: none;    
+    }
+}
+
 .container_login{
     width: 50%;
     height: 100%;
@@ -38,7 +41,13 @@ a {
     align-items: center;
     justify-content: center;
     position: relative;
+}
+@media (max-width:772px){
+    .container_login{
+        padding: 100px;
+        width: 100%;
 
+    }
 }
 
 .form_content{
@@ -50,19 +59,18 @@ a {
 
 .form_title {
     font-family: 'Merriweather', sans-serif;
-    color: var(--gray);
+    color: rgb(97, 97, 97);
     
     p {
         font-size: 16px;
         line-height: 20px;
         font-weight: normal;
-    }
-    
-    h1 {
-        font-size: 26px;
-        line-height: 33px;
-        font-weight: bold;
-    }
+        h1 {
+            font-size: 50px;
+            line-height: 33px;
+            font-weight: bold;
+        }
+    }   
 }
 
 form {
@@ -118,7 +126,6 @@ input::placeholder {
     border: 0px;
     padding: 15px;
     transition: all .4s ease;
-    color: var(--white);
     margin-bottom: 12px;
 
     &:hover{
@@ -150,7 +157,7 @@ input::placeholder {
     gap: 5px;
     position: absolute;
     bottom: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 
     
 }
